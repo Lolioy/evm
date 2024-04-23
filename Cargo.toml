@@ -7,3 +7,17 @@ publish = ["rsproxy"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = { version = "1.0.82", registry = "rsproxy" }
+clap = { version = "4.5.4", registry = "rsproxy", features = ["derive"] }
+digest = { version = "0.10.7", registry = "rsproxy" }
+flate2 = { version = "1.0.29", registry = "rsproxy" }
+hex = { version = "0.4.3", registry = "rsproxy" }
+reqwest = { version = "0.12.4", registry = "rsproxy", features = ["json"] }
+scraper = { version = "0.19.0", registry = "rsproxy" }
+serde = { version = "1.0.198", registry = "rsproxy", features = ["derive"] }
+serde_json = { version = "1.0.116", registry = "rsproxy" }
+sha2 = { version = "0.10.8", registry = "rsproxy" }
+tar = { version = "0.4.40", registry = "rsproxy" }
+tokio = { version = "1.37.0", registry = "rsproxy", features = ["full"] }
+uuid = { version = "1.8.0", registry = "rsproxy", features = ["v4"] }
+zip = { version = "1.1.1", registry = "rsproxy" }
